@@ -32,6 +32,7 @@ Game::Game(MainWindow& wnd)
 	snek({3, 3}),		
 	goal(rng, board, snek)
 {	
+	// some code change
 	 //initialize all obstacles with unique location
 	for (int i = 0; i < N; i++)
 	{		
